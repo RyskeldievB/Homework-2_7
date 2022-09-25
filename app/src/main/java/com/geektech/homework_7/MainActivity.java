@@ -4,18 +4,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
-
-import com.google.android.material.button.MaterialButton;
-
 import java.text.DecimalFormat;
-import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
     private TextView textView;
     private Double oldNumber, newNumber;
     private String operator;
     private Boolean isOperationClick;
-    private Boolean equal = true;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
