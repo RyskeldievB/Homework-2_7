@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.TextView;
 import java.text.DecimalFormat;
 
+
+
 public class MainActivity extends AppCompatActivity {
     private TextView textView;
     private Double oldNumber, newNumber;
