@@ -42,6 +42,8 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_five:
                 setNumber("5");
+
+
                 break;
             case R.id.btn_six:
                 setNumber("6");
